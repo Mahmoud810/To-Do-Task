@@ -12,5 +12,17 @@ A simple To-Do List app built using **UIKit**, following the **MVVM architecture
 - Tasks are saved locally using UserDefaults
 - Clean architecture: Presentation, Domain, Data layers
 
-## 🧠 Architecture
+
+---
+
+## 💾 Storage
+
+Tasks are saved locally using `UserDefaults` via the `Codable` protocol to encode/decode JSON data.
+
+---
+
+## 📲 Getting Started
+
+1. Clone the repository:
+   ```bash
 
